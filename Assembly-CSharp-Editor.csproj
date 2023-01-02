@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FC58B00A-72F4-1ED0-4DA8-9B07B7089D48}</ProjectGuid>
+    <ProjectGuid>{1BACEAC0-603A-0CC4-AFFC-9C16FBE785DB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,34 +56,34 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/PostprocessBuildCheck.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/ProjectorEditor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/DrawTargetObjectEditor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/ProjectorMaterialPreprocessor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/ShadowTextureRendererEditor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/PropertyBlockForTransparentReceiverEditor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/MipmappedShadowFallbackEditor.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/ProjectorShaderGUI.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/EditorBase.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/DynamicShadowProjectorExtensionForLWRP-master-universalrp/Scripts/Editor/DeleteObsoleteObjects.cs" />
-    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/DrawSceneObjectEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EasySetupWizard.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EditorSettings.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/BinaryMeshTreeEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/InfinitePlaneShadowReceiverEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/OctMeshTreeEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/MeshShadowReceiverEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/CreateMeshTreeWizard.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/LightmapDataInPrefabEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/RaycastPlaneShadowReceiverEditor.cs" />
     <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/ProjectorManagerEditor.cs" />
     <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/ReceiverBaseEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EditorBase.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/MeshTreeEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/TerrainMeshTreeEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/RaycastPlaneShadowReceiverEditor.cs" />
-    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/ProjectorShaderGUI.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/DrawTargetObjectEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/ShadowTextureRendererEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EasySetupWizard.cs" />
     <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/AutoProjectorEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EditorSettings.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/LightmapDataInPrefabEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/BinaryMeshTreeEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/MipmappedShadowFallbackEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/ProjectorEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/CreateMeshTreeWizard.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/EditorBase.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/EditorBase.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/DynamicShadowProjectorExtensionForLWRP-master-universalrp/Scripts/Editor/DeleteObsoleteObjects.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/MeshTreeEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/ProjectorShaderGUI.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/PropertyBlockForTransparentReceiverEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/ProjectorMaterialPreprocessor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/DrawSceneObjectEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/ProjectorForLWRP-master-universalrp/Scripts/Editor/PostprocessBuildCheck.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/OctMeshTreeEditor.cs" />
     <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/ProjectionReceiverRendererEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/InfinitePlaneShadowReceiverEditor.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/TerrainMeshTreeEditor.cs" />
+    <Compile Include="Assets/Imported/DynamicShadowProjector/Scripts/Editor/ProjectorShaderGUI.cs" />
+    <Compile Include="Assets/Imported/FastShadowReceiver/Scripts/Editor/MeshShadowReceiverEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -815,7 +815,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{F4CDB585-61CC-2B0B-EDBD-9CE11177FEF5}</Project>
+      <Project>{951C3984-AD78-B273-BBEE-97C664B1E643}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
